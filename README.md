@@ -1,1 +1,2 @@
-# Etch-a-sketch
+The Odin Project. 
+Excercise for DOM manipulation skills.
