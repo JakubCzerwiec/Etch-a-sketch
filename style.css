@@ -1,1 +1,52 @@
+/* General settings */
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: arial,sans-serif;
+    background-color: grey;
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    margin: 1em auto;
+}
+
+.defaultGrid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    border: 1px solid black;
+}
+
+.square {
+    border: 1px solid black;
+}
+
+.black {
+    background-color: black;
+    border: 1px solid black;
+}
+
+.grey {
+    background-color: red;
+    opacity: 0;
+}
+
+/* Buttons */
+
+.buttons {
+    width: max-content;
+    display: flex;
+    margin: 1em auto;
+}
+
+.btn {
+    font-size: 1.5em;
+    padding: 1em;
+    margin: .5em;
+    cursor: pointer;
+    background-color: darkkhaki;
+}
